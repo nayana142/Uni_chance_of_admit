@@ -35,7 +35,6 @@ jamboree = pd.read_csv('Jamboree_Admission1.csv')
 # jamboree=jamboree.rename(columns={'Chance of Admit':'Chance of Admit'})
 x = jamboree.drop(['Chance of Admit ','Serial No.'],axis=1)
 y = jamboree['Chance of Admit ']
-
 from sklearn.preprocessing import StandardScaler
 scaler=StandardScaler()
 x1=scaler.fit_transform(x)
@@ -54,6 +53,7 @@ ds.rename({'0':'predicted_chance_admit'})
 st.subheader('Prediction')
 st.write(prediction)
 st.subheader(' Actual chance of Admit')
+
 st.write(jamboree['Chance of Admit '])
 
 
