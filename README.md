@@ -7,8 +7,8 @@
     With just a few clicks, users can gain insights into their chances of acceptance based on relevant factors.
 
 ## Installation
-    * To run this Streamlit application locally, follow these steps:
-
+* To run this Streamlit application locally, follow these steps:
+  
         1.Clone this repository to your local machine.
         2.Navigate to the project directory.
 ## Install the required dependencies by running:
@@ -17,8 +17,8 @@
          pip install -r requirements.txt
 ## Usage
    After installing the dependencies, launch the Streamlit application by executing the following command:
+   arduino
    
-    arduino
       streamlit run app.py
 This will start a local server, and the application will open in your default web browser.
 
